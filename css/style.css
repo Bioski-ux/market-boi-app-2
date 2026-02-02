@@ -56,5 +56,12 @@ button {
   color: #1f7a4d;
   border: 1px solid #1f7a4d;
   border-radius: 5px;
-  display: none;
+  display: block;
+
 }
+#agentBox {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #1f7a4d;
+}
+
