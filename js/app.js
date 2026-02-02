@@ -1,11 +1,10 @@
-document.getElementById("orderForm").addEventListener("submit", function (e) {
-  e.preventDefault();
+document.addEventListener("DOMContentLoaded", function () {
+  
 
-  const market = document.getElementById("market").value;
-  const items = document.getElementById("items").value;
-  const budget = document.getElementById("budget").value;
+  const form = document.getElementById("orderForm");
 
-  alert(
-    `Order Received 🚀\n\nMarket: ${market}\nItems: ${items}\nBudget: ₦${budget}`
-  );
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    alert("Order Received 🚀");
+  });
 });
