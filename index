@@ -29,4 +29,6 @@
 
     <button type="submit">Submit Order</button>
   </form>
+  <p id="confirmation" class="confirmation"></p>
+
 </main>
