@@ -13,9 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    // confirmation message (keep simple)
-    confirmation.textContent =
-      "✅ Order submitted successfully. A market agent has been assigned.";
+   confirmation.style.display = "block";
+confirmation.textContent =
+  "✅ Order submitted successfully. A market agent has been assigned.";
+
 
     // assign agent safely
     const assignedAgent =
