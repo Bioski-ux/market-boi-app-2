@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Market Boi</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>Market Boi</h1>
+  </header>
+
+  <main class="container">
+    <p class="tagline">Buy from your local market without stress.</p>
+    <button id="orderBtn">Place Order</button>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
